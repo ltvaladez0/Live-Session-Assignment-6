@@ -1,57 +1,5 @@
 # Live-Session-Assignment-6
 
-Analysis Summary and Revised Readme Files
- 3 
-
-FD
-Freeman, Daniel
-   Reply all|
-Today, 8:54 PM
-Bhattacharyya, Sudip;
-Garza, Jose;
-Valadez, Leticia 
-Readme_RollingSalesQueens_Final.txt
-4 KB
-
- Download  Save to OneDrive - Southern Methodist University
-Here's the final version of the readme file.  
-
-Thanks,
-
-Dan
-FD
-Freeman, Daniel
-Today, 8:28 PM
-Hi Team,
- 
- Please find attached a text file of the analysis summary I wrote as well as a cleaned-up version of the readme file (I made several grammatical changes and corrected the condition for outlines, which is supposed to be that we include homes gre
- Hide email
-Analysis Summary and Revised Readme Files
- 3 
-
-FD
-Freeman, Daniel
- |
-Today, 8:54 PM
-Bhattacharyya, Sudip;
-Garza, Jose;
-Valadez, Leticia 
-Readme_RollingSalesQueens_Final.txt
-4 KB
-
- Download  Save to OneDrive - Southern Methodist University
-Here's the final version of the readme file.  
-
-Thanks,
-
-Dan
-FD
-Freeman, Daniel
-Today, 8:28 PM
-Hi Team,
- 
- Please find attached a text file of the analysis summary I wrote as well as a cleaned-up version of the readme file (I made several grammatical changes and corrected the condition for outlines, which is supposed to be that we include homes gre
-Download 
 
 ---------------------------------
 Project: Rolling Sales for Queens
@@ -116,4 +64,3 @@ Logic to determine outliers:
 ----------------------------
 
 Based on previous charts we decided to consider all records for 1-, 2- or 3-family homes with a sale price of greater than $100,000.
- 
