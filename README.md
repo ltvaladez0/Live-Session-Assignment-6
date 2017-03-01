@@ -1,5 +1,58 @@
 # Live-Session-Assignment-6
 
+Analysis Summary and Revised Readme Files
+ 3 
+
+FD
+Freeman, Daniel
+   Reply all|
+Today, 8:54 PM
+Bhattacharyya, Sudip;
+Garza, Jose;
+Valadez, Leticia 
+Readme_RollingSalesQueens_Final.txt
+4 KB
+
+ Download  Save to OneDrive - Southern Methodist University
+Here's the final version of the readme file.  
+
+Thanks,
+
+Dan
+FD
+Freeman, Daniel
+Today, 8:28 PM
+Hi Team,
+ 
+ Please find attached a text file of the analysis summary I wrote as well as a cleaned-up version of the readme file (I made several grammatical changes and corrected the condition for outlines, which is supposed to be that we include homes gre
+ Hide email
+Analysis Summary and Revised Readme Files
+ 3 
+
+FD
+Freeman, Daniel
+ |
+Today, 8:54 PM
+Bhattacharyya, Sudip;
+Garza, Jose;
+Valadez, Leticia 
+Readme_RollingSalesQueens_Final.txt
+4 KB
+
+ Download  Save to OneDrive - Southern Methodist University
+Here's the final version of the readme file.  
+
+Thanks,
+
+Dan
+FD
+Freeman, Daniel
+Today, 8:28 PM
+Hi Team,
+ 
+ Please find attached a text file of the analysis summary I wrote as well as a cleaned-up version of the readme file (I made several grammatical changes and corrected the condition for outlines, which is supposed to be that we include homes gre
+Download 
+
 ---------------------------------
 Project: Rolling Sales for Queens
 ---------------------------------
@@ -8,13 +61,14 @@ Developed By:	Leticia Valadez
 		Daniel Freeman
 		Sudip Bhattacharyya
 
+Updated: February 28, 2017
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Objective:
 ----------
 
-Analyze the property sale price according to squarefeet area for different categories of residence in different neighbourhoods of Queens, New York.
+Analyze the relationship between property sale price and gross square footage for different categories of residence in different neighborhoods of Queens, New York.
 
 
 
@@ -27,7 +81,7 @@ The root directory contains 3 sub-directories and 2 files and the project develo
 
 			-	Data (Directory): 	This directory contains data files
 			-	Analysis (Directory):	This directory contains multiple output files and charts obtained in the process of analyzing our input dataset.
-			-	Paper (Directory):	This directory contains a file explaining data pattern identified in input data.
+			-	Paper (Directory):	This directory contains a file explaining data patterns identified in the input data.
 
 			-	Project_RollingSalesQueens (Project):	This is the project developed to meet our objective with help of R-Studio.
 
@@ -40,26 +94,26 @@ Below are the brief descriptions on sub-directories:
 
 1.	Data:		This directory contains both input and output datasets. It has 2 files:
 
-			- rollingsales_queens.csv (Input):		This is an .csv file used as raw input in this project. 
-									This file has 21 columns (or fields) and 26320 rows (or records).
-			- CleanData_RollingSales_Queens.csv (Output):	This is the final output generated. With 'R' codes all the missing values and outliers has been removed.
-									This file has 25 columns (or fields) and 9696 rows (or records).
+			- rollingsales_queens.csv (Input):		This is a .csv file used as raw input in this project. 
+									This file has 21 columns (or fields) and 26,320 rows (or records).
+			- CleanData_RollingSales_Queens.csv (Output):	This is the final output generated. With 'R' code, all of the missing values and outliers have been removed.
+									This file has 25 columns (or fields) and 9,696 rows (or records).
 
-2.	Analysis:	All the statistical analysis and charts/ diagrams are stored in Analysis directory. It contains 6 files in total:
+2.	Analysis:	All the statistical analysis and charts/ diagrams are stored in the Analysis directory. It contains 6 files in total:
 
-			- RawDataSummary&Structure.txt:				This file has the exploratory anaylysis done on all the fields in raw input file 'rollingsales_queens.csv'.
-			- SummaryforFamilyHomeswithSalesPricebelow100000.txt:	This file has the exploratory anaylysis done on all the fields based on the records which are 1/2/3 Family Home and has a sale price recorded less than $100,000.
-			- Chart1_HistogramforSalePrice.jpg:			This chart contains a histogram drawn on sales price based on all records.
-			- Chart2_PlotforGrossSQFTvsSalePrice.jpg:		This chart shows two diagrams - 
-										a scatter plot of sales price plotted against gross square feet values for all records &
-										a scatter plot of log-transformed sales price plotted against log-transformed gross square feet values for all records
-			- Chart3_PlotforGrossSQFTvsSalePrice_forHomes.jpg:	It plots log-transformed sales price against log-transformed gross square feet based on all records for 1/2/3 family homes.
-			- Chart4_SalePricePlot_CleanDataforHomes.jpg:		It plots log-transformed sales price against log-transformed gross square feet based on all records for 1/2/3 family homes without all outliers.
+			- RawDataSummary&Structure.txt:				This file contains the exploratory anaylysis done on all the fields in raw input file 'rollingsales_queens.csv'.
+			- SummaryforFamilyHomeswithSalesPricebelow100000.txt:	This file contains the exploratory anaylysis done on all the fields based on the records which are 1-, 2- or 3-family homes and have a sale price recorded less than $100,000.
+			- Chart1_HistogramforSalePrice.jpg:			This chart contains a histogram drawn of sales price based on all records.
+			- Chart2_PlotforGrossSQFTvsSalePrice.jpg:		This chart has two plots - 
+										a scatter plot of sales price plotted against gross square footage for all records &
+										a scatter plot of log-transformed sales price plotted against log-transformed gross square footage for all records.
+			- Chart3_PlotforGrossSQFTvsSalePrice_forHomes.jpg:	It plots log-transformed sales price against log-transformed gross square footage based on all records for 1-, 2- or 3-family homes.
+			- Chart4_SalePricePlot_CleanDataforHomes.jpg:		It plots log-transformed sales price against log-transformed gross square footage based on all records for 1-, 2- or 3-family homes without any outliers.
 
-
+3.	Paper:		This directory contains a text file summarizing the analysis and patterns associated with gross square footage and sale price among homes in Queens, NY based on the charts contained in the Analysis directory.
 
 Logic to determine outliers:
 ----------------------------
 
-Based on previous charts we decided to consider all records for 1/2/3 family homes with a sale price less than $100,000 outliers.
+Based on previous charts we decided to consider all records for 1-, 2- or 3-family homes with a sale price of greater than $100,000.
  
