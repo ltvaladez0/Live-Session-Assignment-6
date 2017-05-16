@@ -1,0 +1,28 @@
+
+---------------------------------
+Project: Rolling Sales for Queens
+---------------------------------
+Developed By:	Leticia Valadez
+		Gerardo Garza
+		Daniel Freeman
+		Sudip Bhattacharyya
+
+Updated: February 28, 2017
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Summary of Analysis of Gross Square Footage and Sale Price among Homes in Queens, NY
+------------------------------------------------------------------------------------
+
+From the scatterplot of the log-transformed gross square foootage vs. the log-transformed sale price (Chart 2), we see that the vast majority of homes are sold for between 
+$100,000 and $1,000,000 with a square footage of between 1,000 and 5,000.  Max prices tap out at close to $100,000,000 while homes can be as large as 500,000 square feet.  
+
+When restricting the same scatterplot to only 1-, 2- or 3-family homes (Chart 3), the price range for most homes stays roughly the same, but the square footage range shrinks 
+to roughly between 1,000 and 3,200.  There are only a handful of 1-, 2- or 3- family homes larger than 5,000 square foot or more expensive than $3,000,000.
+
+The final clean data set is restricted to 1-, 2- or 3-family homes that sell for $100,000 or more.  The scatterplot of the log-transformed gross square foootage vs. the 
+log-transformed sale price of 1-, 2- or 3-family homes with selling prices of $100,000 or more (Chart 4) reveals that most of these homes are between 1,000 and 3,200 square 
+feet and sell for between $300,000 and $1,000,000.  There are only a handful of homes that are larger than 5,000 square feet or cost more than $3,000,000.  Generally speaking, 
+as square footage increases, so does price, but the large cluster of homes near the center of the scatterplot indicates that square footage varies for a given price point and 
+price varies for a given square footage.  For example, a home that sells for $500,000 may vary between 1,000 and 3,000 square feet while a 2,500-square-foot home may vary in 
+price between $250,000 and $1,000,000.  The most expensive homes (over $3,000,000) actually fall near the average square footage (between 2,000 and 3,000 square foot), which 
+is a deviation from the linear relationship between square footage and selling price.  
