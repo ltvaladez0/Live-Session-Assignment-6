@@ -1,12 +1,12 @@
-# Live-Session-Assignment-6
+# Project-Rolling-Sales-for-Queens
 
 
 ---------------------------------
 Project: Rolling Sales for Queens
 ---------------------------------
-Developed By:	Leticia Valadez
-		Gerard Garza
-		Daniel Freeman
+Developed By:	Leticia Valadez / 
+		Gerard Garza / 
+		Daniel Freeman / 
 		Sudip Bhattacharyya
 
 Updated: February 28, 2017
@@ -64,3 +64,4 @@ Logic to determine outliers:
 ----------------------------
 
 Based on previous charts we decided to consider all records for 1-, 2- or 3-family homes with a sale price of greater than $100,000.
+ 
