@@ -1,0 +1,79 @@
+    BOROUGH           NEIGHBORHOOD  
+ Min.   :4   FLUSHING-NORTH : 2575  
+ 1st Qu.:4   ASTORIA        : 1165  
+ Median :4   BAYSIDE        : 1132  
+ Mean   :4   FOREST HILLS   : 1052  
+ 3rd Qu.:4   JACKSON HEIGHTS:  993  
+ Max.   :4   FLUSHING-SOUTH :  854  
+             (Other)        :18549  
+                                BUILDING.CLASS.CATEGORY TAX.CLASS.AT.PRESENT
+ 01 ONE FAMILY DWELLINGS                    :8357       1      :15342       
+ 02 TWO FAMILY DWELLINGS                    :5681       2      : 7213       
+ 10 COOPS - ELEVATOR APARTMENTS             :3867       4      : 1797       
+ 13 CONDOS - ELEVATOR APARTMENTS            :1735       2A     :  629       
+ 03 THREE FAMILY DWELLINGS                  :1235       1B     :  429       
+ 09 COOPS - WALKUP APARTMENTS               :1226              :  373       
+ (Other)                                    :4219       (Other):  537       
+     BLOCK            LOT         EASE.MENT      BUILDING.CLASS.AT.PRESENT
+ Min.   :   13   Min.   :   1.0   Mode:logical   A1     : 3870            
+ 1st Qu.: 2694   1st Qu.:  16.0   NA's:26320     D4     : 3867            
+ Median : 5938   Median :  39.0                  A5     : 2034            
+ Mean   : 6614   Mean   : 203.7                  B3     : 1954            
+ 3rd Qu.:10076   3rd Qu.:  81.0                  B2     : 1850            
+ Max.   :16322   Max.   :8007.0                  A2     : 1593            
+                                                 (Other):11152            
+                   ADDRESS      APARTMENT.NUMBER    ZIP.CODE     RESIDENTIAL.UNITS
+ 120 BEACH 26 STREET   :  127          :23536    Min.   :    0    1     :5673     
+ 63-14 QUEENS BOULEVARD:   66   2A     :   48    1st Qu.:11360   0      :5154     
+ 31-35 31ST   STREET   :   63   2B     :   48    Median :11375   1      :4959     
+ 112-45 39TH    AVENUE :   60   3B     :   47    Mean   :11261    2     :3030     
+ 131-05 40TH   ROAD    :   55   3A     :   45    3rd Qu.:11419    -     :2703     
+ 42-60 CRESCENT STREET :   54   4A     :   35    Max.   :11697   2      :2699     
+ (Other)               :25895   (Other): 2561                    (Other):2102     
+ COMMERCIAL.UNITS  TOTAL.UNITS   LAND.SQUARE.FEET GROSS.SQUARE.FEET   YEAR.BUILT  
+ 0      :12815     1     :6080   0      : 5754    0      : 6033     Min.   :   0  
+  -     :12104    1      :5597    -     : 2877     -     : 3330     1st Qu.:1925  
+ 1      :  562    0      :4264    4,000 : 1217     1,600 :  109     Median :1940  
+  1     :  489     2     :2980    2,500 :  822    1224   :  103     Mean   :1825  
+ 2      :   88    2      :2669    2,000 :  708     1,440 :   82     3rd Qu.:1959  
+  2     :   78     -     :2144   4000   :  687     1,224 :   76     Max.   :2016  
+ (Other):  184    (Other):2586   (Other):14255    (Other):16587                   
+ TAX.CLASS.AT.TIME.OF.SALE BUILDING.CLASS.AT.TIME.OF.SALE      SALE.PRICE   
+ Min.   :1.000             D4     : 3867                   $-       : 8226  
+ 1st Qu.:1.000             A1     : 3861                   $10      :  209  
+ Median :1.000             A5     : 2032                   $450,000 :  156  
+ Mean   :1.529             B3     : 1972                   $650,000 :  150  
+ 3rd Qu.:2.000             B2     : 1873                   $250,000 :  137  
+ Max.   :4.000             R4     : 1735                   $600,000 :  137  
+                           (Other):10980                  (Other)   :17305  
+      SALE.DATE    
+ 4/5/2016  :  210  
+ 11/10/2016:  177  
+ 6/30/2016 :  174  
+ 2/29/2016 :  170  
+ 11/22/2016:  161  
+ 10/28/2016:  158  
+ (Other)   :25270  
+'data.frame':	26320 obs. of  21 variables:
+ $ BOROUGH                       : int  4 4 4 4 4 4 4 4 4 4 ...
+ $ NEIGHBORHOOD                  : Factor w/ 60 levels "AIRPORT LA GUARDIA",..: 1 1 1 1 1 1 1 1 2 2 ...
+ $ BUILDING.CLASS.CATEGORY       : Factor w/ 44 levels "01 ONE FAMILY DWELLINGS                    ",..: 1 1 2 3 3 3 12 12 1 1 ...
+ $ TAX.CLASS.AT.PRESENT          : Factor w/ 11 levels " ","1","1A","1B",..: 2 2 2 2 2 2 6 6 2 2 ...
+ $ BLOCK                         : int  976 976 976 949 949 949 949 949 15828 15829 ...
+ $ LOT                           : int  61 63 70 15 56 59 1012 1025 53 22 ...
+ $ EASE.MENT                     : logi  NA NA NA NA NA NA ...
+ $ BUILDING.CLASS.AT.PRESENT     : Factor w/ 125 levels " ","A0","A1",..: 7 7 11 15 15 15 91 91 3 3 ...
+ $ ADDRESS                       : Factor w/ 23093 levels "-00 136TH   AVENUE",..: 9305 9287 9243 8482 8514 8512 8507 19504 12203 12913 ...
+ $ APARTMENT.NUMBER              : Factor w/ 1193 levels " ","0.02","1",..: 1 1 1 1 1 1 225 3 1 1 ...
+ $ ZIP.CODE                      : int  11370 11370 11370 11370 11370 11370 11370 11370 11691 11691 ...
+ $ RESIDENTIAL.UNITS             : Factor w/ 111 levels " -   "," 1 ",..: 2 2 14 22 22 22 2 2 2 2 ...
+ $ COMMERCIAL.UNITS              : Factor w/ 36 levels " -   "," 1 ",..: 1 1 1 1 1 1 1 1 1 1 ...
+ $ TOTAL.UNITS                   : Factor w/ 120 levels " -   "," 1 ",..: 2 2 15 22 22 22 2 2 2 2 ...
+ $ LAND.SQUARE.FEET              : Factor w/ 4202 levels " -   "," 1,000 ",..: 265 265 265 553 491 491 1 1 1414 881 ...
+ $ GROSS.SQUARE.FEET             : Factor w/ 4200 levels " -   "," 1,000 ",..: 178 178 178 1781 1348 1348 1 1 156 401 ...
+ $ YEAR.BUILT                    : int  1950 1950 1950 1985 1945 1945 0 0 2002 2005 ...
+ $ TAX.CLASS.AT.TIME.OF.SALE     : int  1 1 1 1 1 1 2 2 1 1 ...
+ $ BUILDING.CLASS.AT.TIME.OF.SALE: Factor w/ 124 levels "A0","A1","A2",..: 6 6 10 14 14 14 90 90 2 2 ...
+ $ SALE.PRICE                    : Factor w/ 3272 levels " $-   "," $1 ",..: 2590 1188 1 3178 1 2018 1859 1459 1177 1377 ...
+ $ SALE.DATE                     : Factor w/ 359 levels "1/1/2017","1/10/2017",..: 288 71 245 187 306 188 8 68 143 309 ...
+NULL

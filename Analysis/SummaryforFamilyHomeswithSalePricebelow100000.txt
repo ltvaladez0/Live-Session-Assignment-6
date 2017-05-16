@@ -1,0 +1,56 @@
+    borough                    neighborhood
+ Min.   :4   SOUTH JAMAICA           : 26  
+ 1st Qu.:4   ST. ALBANS              : 22  
+ Median :4   JACKSON HEIGHTS         : 21  
+ Mean   :4   SO. JAMAICA-BAISLEY PARK: 21  
+ 3rd Qu.:4   SPRINGFIELD GARDENS     : 21  
+ Max.   :4   HOLLIS                  : 19  
+             (Other)                 :303  
+                                building.class.category tax.class.at.present
+ 01 ONE FAMILY DWELLINGS                    :244        1      :432         
+ 02 TWO FAMILY DWELLINGS                    :158               :  1         
+ 03 THREE FAMILY DWELLINGS                  : 31        1A     :  0         
+ 04 TAX CLASS 1 CONDOS                      :  0        1B     :  0         
+ 05 TAX CLASS 1 VACANT LAND                 :  0        1C     :  0         
+ 06 TAX CLASS 1 - OTHER                     :  0        2      :  0         
+ (Other)                                    :  0        (Other):  0         
+     block            lot          ease.ment      building.class.at.present
+ Min.   :  155   Min.   :   1.00   Mode:logical   A1     :114              
+ 1st Qu.: 6353   1st Qu.:  18.00   NA's:433       B3     : 72              
+ Median :10172   Median :  35.00                  A2     : 49              
+ Mean   : 9174   Mean   :  57.31                  A5     : 48              
+ 3rd Qu.:12484   3rd Qu.:  64.00                  B1     : 40              
+ Max.   :16201   Max.   :1351.00                  B2     : 37              
+                                                  (Other): 73              
+                   address    apartment.number    zip.code     residential.units
+ 48-15 187TH   STREET  :  3          :433      Min.   :11001    1     :132      
+ 10325 SPRINGFIELD BLVD:  2   0.02   :  0      1st Qu.:11373   1      :112      
+ 117-39 142ND   PLACE  :  2   1      :  0      Median :11417    2     : 88      
+ 178-36 145TH AVENUE   :  2   1-A    :  0      Mean   :11421   2      : 69      
+ 219 BEACH 91ST STREET :  2   1-B    :  0      3rd Qu.:11432    3     : 17      
+ 221-36 107TH   AVENUE :  2   1-C    :  0      Max.   :11694   3      : 14      
+ (Other)               :420   (Other):  0                      (Other):  1      
+ commercial.units  total.units  land.square.feet gross.square.feet   year.built  
+  -     :236       1     :131    4,000 : 35       1,120 :  4       Min.   :   0  
+ 0      :192      1      :111    2,500 : 17       512   :  4       1st Qu.:1925  
+ 1      :  3       2     : 88    3,000 : 17      1224   :  4       Median :1935  
+  1     :  2      2      : 68    2,000 : 16       1,056 :  3       Mean   :1936  
+  12    :  0       3     : 18   2500   : 16       1,188 :  3       3rd Qu.:1950  
+  17    :  0      3      : 16   2000   : 15       1,534 :  3       Max.   :2014  
+ (Other):  0      (Other):  1   (Other):317      (Other):412                     
+ tax.class.at.time.of.sale building.class.at.time.of.sale     sale.price 
+ Min.   :1                 A1     :114                     $10     :170  
+ 1st Qu.:1                 B3     : 72                     $1      : 42  
+ Median :1                 A2     : 49                     $100    : 26  
+ Mean   :1                 A5     : 48                     $25,000 : 21  
+ 3rd Qu.:1                 B1     : 40                     $1,000  : 20  
+ Max.   :1                 B2     : 38                     $10,000 : 16  
+                           (Other): 72                    (Other)  :138  
+      sale.date    sale.price.n     gross.sqft     land.sqft    
+ 11/28/2016:  6   Min.   :    1   Min.   : 400   Min.   :  613  
+ 3/7/2016  :  6   1st Qu.:   10   1st Qu.:1232   1st Qu.: 2107  
+ 10/14/2016:  5   Median :  100   Median :1535   Median : 2758  
+ 12/19/2016:  5   Mean   :14321   Mean   :1697   Mean   : 3116  
+ 2/22/2016 :  5   3rd Qu.:20000   3rd Qu.:2010   3rd Qu.: 4000  
+ 3/1/2016  :  5   Max.   :93000   Max.   :5341   Max.   :10293  
+ (Other)   :401                   NA's   :1      NA's   :1      
