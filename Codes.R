@@ -2,9 +2,6 @@
 # Taken from pages 49-50 of O'Neil and Schutt
 
 
-# Codes modeified by Sudip Bhattacharyya
-
-
 library(plyr)
 
 #All file locations are set on relative paths from the project directory.
